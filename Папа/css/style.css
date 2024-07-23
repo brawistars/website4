@@ -1,0 +1,149 @@
+body{
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header{
+  background: url(../img/photo.jpg) no-repeat center top / cover;
+  width:auto; height:auto;
+  padding-bottom: auto;
+}
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.menum{
+  width: 100%;
+  height: 150px;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+}
+.menum h2{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.menum span{
+  color: #ff0000;
+}
+.menum span1{
+  color: #00ff00;
+}
+.menu1{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -40px;
+}
+.menu1 li{
+  display: block;
+  padding-right: 50px;
+}
+.menu1 li:nth-child(6){
+  padding-right: 0px;
+}
+.menu1 a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.menu1 a:hover{
+  border: 2px solid #4bcaff;
+  color: #4bcaff;
+  padding: 10px 20px;
+}
+.icon{
+  display: none;
+} 
+.maintext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 230px;
+}
+.maintext h2{
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 15px 20px;
+  margin-bottom: -10px;
+}
+.maintext1{
+  width: 19%;
+}
+.maintext2{
+  width: 52%;
+}
+#services{
+  margin-top: -10px;
+  color: #fff;
+}
+.services{
+  padding-top: 40px;
+  padding-bottom: 70px;
+  display: flex;
+}
+.services h2{
+  text-transform: uppercase;
+}
+
+#video{
+  background: #515f67;
+  color: #fff;
+}
+.context{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+.context1{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.context_item{
+  display: flex;
+  flex-direction: column;
+  width: 40.17%;
+  padding-right: 11.97%;
+}
+.context video{
+  width: 47.86%;
+}
+footer{
+  background: #353f47;
+}
+.footerend{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+footer p{
+  text-transform: uppercase;
+  color: #445058;
+}
+.flex-container{
+display: flex;
+height: 50vh;
+align-content: stretch;
+flex-wrap: wrap;
+}
+.flex-item{
+	width: 33.33%;
+}
+.box {
+  display: flex;
+}
+.box>* {
+  flex: 1 1 200px;
+}
+.hide {
+  visibility: collapse;
+}
